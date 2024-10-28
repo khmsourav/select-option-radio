@@ -69,10 +69,12 @@
             border: solid #fff;
             border-width: 0 2px 2px 0;
             transition: ease-in-out .35s;
-            -webkit-transform: translateY(-50%) translateX(-50%) rotate(46deg);
-            -ms-transform: translateY(-50%) translateX(-50%) rotate(46deg);
             transform: translateY(-50%) translateX(-50%) rotate(46deg);
             display: none;
+        }
+        .checkbox--label>input:checked+.select--wrapper .check-mark {
+            background-color: #750EF4;
+            border: 1.5px solid #750EF4;
         }
         .checkbox--label>input:checked+.select--wrapper .check-mark:after {
             display: block;
